@@ -1,0 +1,4 @@
+,Model,Std_PnL_per_Trade,Avg_PnL_per_Trade,Nr_Trades,Total_PnL,PnL/Perfect_PnL,Max_Drawdown,PnL_T_Stat
+0,RandomForest,"4,298","1,500","13,079","19,618,292",58.98%,-0.34%,39.92
+1,HistGradientBoosting,"4,209","1,282","15,852","20,317,229",61.09%,-0.38%,38.34
+2,LightGBM,"4,239","1,284","15,942","20,463,070",61.52%,-0.35%,38.24
