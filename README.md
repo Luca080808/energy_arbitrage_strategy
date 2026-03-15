@@ -122,7 +122,7 @@ LightGBM
 
 Cumulative PnL:
 
-69,870,924 RON
+20,463,070	RON 
 
 Additional performance metrics reported in the dashboard include:
 
