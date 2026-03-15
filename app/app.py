@@ -394,7 +394,7 @@ def show_conclusions():
     st.title("5. Conclusion")
     st.markdown("In conclusion, while all three models generate modest, statistically significant and steady returns, the gradient boosting models (HGB, LGBM) have a performance and predictive edge over the bagging ones (RF).")
 
-    st.markdown("The most succesful model is LGBM with a cumulative PNL of 69,870,924 RON.")
+    st.markdown("The most succesful model is LGBM with a cumulative PNL of 20,463,070 RON.")
 
     st.header("5.1 Suggestions of improvements")
     st.markdown("1. A note-worthy investigation could be the replacement of dominant feature **imb_volume** with some derivation off of it, such as a rolling mean of the first n **imb_volume** data. The ambitious reader is invited to try this out.")
