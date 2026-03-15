@@ -6,7 +6,7 @@
 
 **Backtest period**: July 2024 - December 2024
 
-**Cumulative PnL**: 69,870,924 RON
+**Cumulative PnL**: 20,463,070	RON
 
 ## Overview
 
