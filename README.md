@@ -6,7 +6,7 @@
 
 **Backtest period**: July 2024 - December 2024
 
-**Cumulative PnL**: 20,463,070	RON
+**Cumulative PnL**: 20,463,070 RON
 
 ## Overview
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 ### 2. Launch the dashboard
 ```bash
-streamlit run app.py
+streamlit run app/app.py
 ```
 ### 3. Open the interface
 
@@ -44,11 +44,7 @@ Once launched, copy the local URL and open it via Google Chrome for the best UI 
 
 # Running the Notebook
 
-If you prefer reviewing the full workflow directly:
-
-jupyter notebook
-
-Open:
+If you prefer reviewing the full workflow directly, open:
 
 Jupyter_Notebook/Project.ipynb
 
@@ -114,15 +110,15 @@ This represents the theoretical maximum profit achievable with perfect foresight
 
 # Results
 
-All three models produce **positive cumulative PnL**, with the gradient boosting models outperforming Random Forest.
+All three models produce **positive cumulative PnL**, with the gradient-boosting models outperforming the Random Forest.
 
-**Best performing model:**
+**Best performing model**:
 
 LightGBM
 
-Cumulative PnL:
+**Cumulative PnL**:
 
-20,463,070	RON 
+20,463,070 RON 
 
 Additional performance metrics reported in the dashboard include:
 
@@ -133,10 +129,9 @@ Additional performance metrics reported in the dashboard include:
 ---
 # Project Structure
 ```
-energy_arbitrage_ml/
-├── received_documents/
-│   ├── dataset_engie_studycase.pkl
-│   └── Case_Study_Instructions.pdf
+energy_arbitrage_strategy/
+├── data/
+│   └── synthetic_dataset_studycase.pkl
 ├── Jupyter_Notebook/
 │   └── Project.ipynb
 ├── results/ 
